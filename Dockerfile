@@ -4,4 +4,4 @@ LABEL maintainer="Vu Nguyen" \
       name="automated-build" \
       version="0.1"
       
-COPY . /usr/share/nginx/html
+COPY index.html /usr/share/nginx/html
